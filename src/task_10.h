@@ -1,7 +1,9 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+
 using namespace std;
+
 string permuteString(const string& s) {
     string t = s;
     vector<pair<int, char>> vowelIndices;
@@ -26,7 +28,7 @@ string permuteString(const string& s) {
     return t;
 }
 
-int main() {
+int main(){
     string s;
     cin >> s;
 
